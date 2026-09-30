@@ -1,0 +1,12 @@
+import jaa.until.Scanner;
+public static void main(String[]args){
+Scanner sc = new Scanner(System.in);
+int[]employeeId = {101,102,103,104,105};
+
+System.out.print("Entre array index (0 to 4): ");
+int index = sc.next();
+
+if(index >= 0 && index < employeeId.length){
+    System.out.println("Empoyee Id: " + -EmployeeId[index]);
+}0
+}
